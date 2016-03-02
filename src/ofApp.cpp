@@ -3,7 +3,7 @@
 
 
 void ofApp::circle(){
-    ofSetColor(255,0,0);
+    ofSetColor(255,255,0);
     ofFill();
     ofEllipse(ofGetWidth()/4, ofGetHeight()/4, 200, 200);
 }

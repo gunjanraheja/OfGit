@@ -3,7 +3,8 @@
 
 
 void ofApp::circle(){
-    ofFill(255,0,0);
+    ofFill(255,255,0);
+    
     ofEllipse(ofGetWidth()/4, ofGetHeight()/4, 200, 200);
 }
 
